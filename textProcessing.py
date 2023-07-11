@@ -69,9 +69,9 @@ class TextProcessing():
         text = text.translate(str.maketrans('', '', string.punctuation))
         return text
             
-# 1. Reading the text file
+# 1. Reading the text file (try to use your own file)
 # creating an object for the class
-textProcessor = TextProcessing('t8.shakespeare.txt')
+textProcessor = TextProcessing('demo.txt')
 
 # 2. Finding number of unique words
 uniqueWords = textProcessor.countUniqueWords()
